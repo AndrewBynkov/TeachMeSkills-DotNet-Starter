@@ -14,7 +14,7 @@ namespace TeachMeSkills.DotNet.Task2
             Console.WriteLine(str1);
             Console.WriteLine(str2);
             Console.WriteLine(str3);
-            Console.ReadKey();        
+            Console.ReadKey();
         }
 
     }
