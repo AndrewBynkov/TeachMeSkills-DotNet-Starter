@@ -36,7 +36,6 @@ namespace TeachMeSkills.DotNet.Task6
         {
             string inpSign = null;
             int count1 = 0;
-
             string[] operatorsArray = new[] { "+", "-", "/", "*" };
 
             while (count1 == 0)
