@@ -86,7 +86,6 @@ namespace TeachMeSkills.DotNet.Task9
                     do
                     {
                         Console.Write($"Number {strVal2} is not even! Try again: ");
-
                         canParce2 = int.TryParse(Console.ReadLine(), out int value2);
                         strVal2 = value2.ToString();
                         result2 = strVal2[strVal2.Length - 1] % 2;
