@@ -146,6 +146,7 @@ namespace TeachMeSkills.DotNet.Task9
                 canParse2 = int.TryParse(Console.ReadLine(), out int value2);
                 val2 = value2;
             }
+
             return (val1, val2);
         }
     }
