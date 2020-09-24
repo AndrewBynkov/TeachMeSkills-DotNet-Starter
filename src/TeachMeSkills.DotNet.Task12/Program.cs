@@ -6,7 +6,13 @@ namespace TeachMeSkills.DotNet.Task12
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 5;
+            int b = 4;
+
+            int res = a | b;
+            int res2 = b & a;
+            Console.WriteLine(res);
+            Console.WriteLine(res2);
         }
     }
 }
