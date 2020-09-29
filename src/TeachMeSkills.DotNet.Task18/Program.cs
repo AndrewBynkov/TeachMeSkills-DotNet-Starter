@@ -69,8 +69,8 @@ namespace TeachMeSkills.DotNet.Task18
 
         private static int UserInpNum()
         {
-            bool canParce = default;
-            int inpVal = default;
+            int inpVal;
+            bool canParce;
             do
             {
                 Console.Write("Enter you number: ");
