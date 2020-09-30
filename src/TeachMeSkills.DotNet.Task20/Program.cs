@@ -23,6 +23,7 @@ namespace TeachMeSkills.DotNet.Task20
             int value1;
             int value2;
             int value3;
+
             do
             {
                 Console.Write("Enter you first number: ");
